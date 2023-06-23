@@ -122,3 +122,14 @@ img{
 .profile-perfil img{
     width: 75px;
 }
+
+.profile-border{
+    border: 3.5px solid var(--first-color);
+    justify-self: center;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-bottom: .75rem;
+}
