@@ -91,3 +91,34 @@ img{
     display: grid;
     gap: 1.5rem;
 }
+
+/* PROFILE */
+.profile{
+    position: relative;
+    padding-top: 3.5rem;
+}
+
+.profile-container{
+    row-gap: 2rem;
+}
+
+.profile-data{
+    display: grid;
+    text-align: center;
+}
+.profile-perfil{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(180deg,
+                hsla(var(--hue), var(--sat), var(--lig), 1) 0%
+                hsla(var (--hue), var(--sat), var(--lig), .2) 100%);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.profile-perfil img{
+    width: 75px;
+}
