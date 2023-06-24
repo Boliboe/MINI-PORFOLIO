@@ -238,6 +238,42 @@ img{
     column-gap: .5rem;
 }
 
-/* PROJECTS */
+.filters-button{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    font-family: var(--font-family);
+    font-weight: 500;
+    border-radius: .75rem;
+    cursor: pointer;
+    background-color: transparent;
+    transition: .3s;
+}
 
+.filters-button:hover{
+    background-color: var(--body-color);
+}
+
+/* PROJECTS */
+.projects-card{
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.projects-card img{
+    width: 100%;
+    height: 100%;
+}
+
+.projects-modal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
 /* SKILLS */
