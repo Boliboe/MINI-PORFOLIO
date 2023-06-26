@@ -60,6 +60,7 @@ body{
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
+    transition: .3s;
 }
 
 h1,h2,h3{
@@ -434,4 +435,26 @@ body.dark-theme{
 
 ::-webkit-scrollbar-thumb:hover{
     background-color: hsl(var(--hue), 8%, 44%);
+}
+
+/* for smaller devices */
+@media screen and (max-width:320px) {
+    .container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .profile-info{
+        column-gap: 1.5rem;
+    }
+
+    .profile-buttons{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .skills-box{
+        column-gap: 1rem;
+    }
+    
 }
