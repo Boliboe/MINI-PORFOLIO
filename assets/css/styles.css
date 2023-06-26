@@ -494,4 +494,56 @@ body.dark-theme{
         top: 2.5rem;
         right: 2.5rem;
     }
+
+    .profile{
+        padding-top: 4rem;
+    }
+
+    .profile-border{
+        width: 135px;
+        height: 135px;
+        margin-bottom: 1rem;
+    }
+
+    .profile-perfil{
+        width: 120px;
+        height: 120px;
+    }
+
+    .profile-perfil img{
+        width: 90px;
+    }
+
+    .profile-profession{
+        margin-bottom: 1.5rem;
+    }
+
+    .profile-info{
+        column-gap: 3rem;
+    }
+
+    .profile-info-description{
+        font-size: var(--small-font-size);
+    }
+    
+    .profile-buttons{
+        column-gap: 2rem;
+    }
+
+    .projects-content{
+        gap: 2rem 3rem;
+    }
+
+    .projects-modal{
+        padding: 1.5rem;
+    }
+
+    .skills-title{
+        font-size: var(--normal-font-size);
+        margin-bottom: 2.5rem;
+    }
+
+    .footer-copy{
+        margin: 4.5rem 0 2.5rem;
+    }
 }
